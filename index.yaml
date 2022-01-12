@@ -1,0 +1,46 @@
+---
+name: Prometheus
+description: This course explains Prometheus concepts and how to get started with using Prometheus.
+branding:
+    logo: _images/prometheus_logo.png
+    banner: 
+    textColor: '#000000'
+    header:
+        text: Prometheus
+        logo: _images/prometheus_logo.png
+license: 
+duration: 60 mins
+categories:
+    - Backend
+    - Express
+    - Frontend
+intro: readme.md
+documentation: 
+commands:
+    - name: .
+      cmd: 
+      cwd: /home/student
+      stepMessage: .
+environment:
+    terminal:
+        name: Terminal
+        enabled: true
+    ide:
+        name: IDE
+        enabled: true
+        url: '{{ IDE.url }}'
+    application:
+        name: Prometheus
+        url: '{{ DNS.host }}/ui'
+        enabled: false
+config:
+    launchBtn:
+        buttonLabel: Launch
+    execCmd : 
+        autoExecute: false
+        buttonLabel: Execute Commands
+backend:
+    service: prometheus
+tileInfo: []
+
+

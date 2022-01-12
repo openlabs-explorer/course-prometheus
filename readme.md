@@ -1,0 +1,1 @@
+This course explains Prometheus concepts and how to get started with using Prometheus.
